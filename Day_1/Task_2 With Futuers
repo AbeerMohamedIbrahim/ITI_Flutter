@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Abeer Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abeer-Portfolio">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <h1>Abeer Mohamed</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Abeer Mohamed</strong>, a Flutter developer with a Bachelor's degree in Computer Science and Artificial Intelligence.</p>
+      <blockquote>“Learning never exhausts the mind.” – Leonardo da Vinci</blockquote>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>C++</li>
+        <li>HTML</li>
+        <li>Teamwork</li>
+      </ul>
+
+      <table border="1">
+        <caption>Skill Proficiency</caption>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Proficiency</th>
+            <th>Years of Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Flutter / Dart</td>
+            <td>Intermediate</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>Advanced</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>HTML &amp; CSS</td>
+            <td>Advanced</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>1. Personal Portfolio (this site)</h3>
+        <p>This responsive one‑page website showcases my profile, skills, and projects using semantic HTML5 and minimal CSS.</p>
+        <a href="#">View Project</a>
+      </article>
+
+      <article>
+        <h3>2. Online Store</h3>
+        <p>A simple e‑commerce prototype to buy devices and laptops online. Built with Flutter Web and Firebase for the back‑end.</p>
+        <img src="https://cdn2.hubspot.net/hubfs/318836/online-store-small-business-blog.png" width="200" alt="Screenshot of online store project">
+      </article>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email me at: <a href="mailto:abeermohamed@gmail.com">abeermohamed@gmail.com</a></p>
+
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Abeer Mohamed. All rights reserved.
+  </footer>
+</body>
+</html>
